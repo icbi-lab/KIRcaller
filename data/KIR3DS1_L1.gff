@@ -1,0 +1,12 @@
+##gff-version 3.2.1
+##KIR3DL1/S1 hg19
+## ul00 KIR3DL1 = uniq not present (deleted) in KIR3DS1
+## ul01 KIR3DL1 <=> different from us01 KIR3DS1 in blast alignment
+## ul02 KIR3DL1 <=> different from us02 KIR3DS1 in blast alignment
+19	.	gene	55327893	55342233	.	+	.	ID=KIR3DL1;Name=KIR3DL1
+19	.	exon	55341521	55341761	.	+	.	ID=ul00;Name=KIR3DL1_uniq.0;Parent=KIR3DL1
+19	.	exon	55340738	55341276	.	+	.	ID=ul01;Name=KIR3DL1_uniq.1;Parent=KIR3DL1
+19	.	exon	55341397	55341696	.	+	.	ID=ul02;Name=KIR3DL1_uniq.2;Parent=KIR3DL1
+GL000209.1	.	gene	70097	84658	.	+	.	ID=KIR3DS1;Name=KIR3DS1
+GL000209.1	.	exon	83291	83830	.	+	.	ID=us01;Name=KIR3DS1_uniq.1;Parent=KIR3DS1
+GL000209.1	.	exon	83951	84228	.	+	.	ID=us02;Name=KIR3DS1_uniq.2;Parent=KIR3DS1
