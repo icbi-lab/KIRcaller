@@ -20,7 +20,7 @@ It works with BAM files that were created by aligning ExomeSeq or WGS reads to g
     KIRcaller/
     ├── callKIR3D.py
     ├── data
-    │   └── KIR3DS1_L1.gff
+        └── KIR3DS1_L1.gff
     
     featureCounts form the subread package should be located in your $PATH,
     alternatively it can be specified via the -f or --featureCounts option.
